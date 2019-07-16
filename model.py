@@ -24,7 +24,7 @@ class DeepFam(nn.Module):
             # each motif feature is extracted through conv -> one-max pooling
             motifs = nn.Sequential( nn.Conv2d(1, num_w, (len_w, FLAGS.charset_size)),
                                     #nn.BatchNorm2d(num_w),
-                                    n n.ReLU(),
+                                    nn.ReLU(),
                                     nn.MaxPool2d( (FLAGS.seq_len - len_w + 1, 1), 
                                                    stride=(1, FLAGS.seq_len)) )
             motifs.apply(weights_init)
