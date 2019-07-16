@@ -16,4 +16,4 @@ python run.py --num_windows 256 256 256 256 256 256 256 256 \
 --test_file data/subfamily/test.txt
 ```
 
-To dedicate target directory to write training logs, use `--log_dir` flag to designate the directory. 
+To dedicate a target directory to write training logs, use `--log_dir` flag to designate the directory. 
