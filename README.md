@@ -1,5 +1,5 @@
 # DeepFam in Pytorch
-Pytorch implementation of [DeepFam: deep learning based alignment-free method for protein family modeling and prediction](https://academic.oup.com/bioinformatics/article/34/13/i254/5045722), a deep learning based, alignment-free algorithm for protein family modeling. 
+PyTorch implementation of [DeepFam: deep learning based alignment-free method for protein family modeling and prediction](https://academic.oup.com/bioinformatics/article/34/13/i254/5045722), a deep learning based, alignment-free algorithm for protein family modeling. 
 
 ![Figure](https://github.com/bhi-kimlab/DeepFam/blob/master/docs/images/Figure1.png?raw=true)
 
